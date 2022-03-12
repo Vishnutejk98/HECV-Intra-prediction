@@ -21,13 +21,15 @@ Decoding
 
 Steps to follow to run the code:
 
-Install In your ENV: conda install -c conda-forge pyopencl
+Install In your ENV: 
+- conda install -c conda-forge pyopencl
 
 Command to run on the bash:
-conda run -n videocode convertvideo.py   
-converts .y into readable frames 
+- conda run -n videocode convertvideo.py   
+- converts .y into readable frames 
+
 Normal commands:
-Activate your environment
+-  Activate your environment
 
 Motion detection between the frames : 
 -  Algorithm used is RLE: https://www.section.io/engineering-education/run-length-encoding-algorithm-in-python/#:~:text=Run%20Length%20Encoding%20is%20a,runs%20followed%20by%20the%20data.
