@@ -29,18 +29,19 @@ converts .y into readable frames
 Normal commands:
 Activate your environment
 
-Motion detection between the frames : Algorithm used is RLE: https://www.section.io/engineering-education/run-length-encoding-algorithm-in-python/#:~:text=Run%20Length%20Encoding%20is%20a,runs%20followed%20by%20the%20data.
+Motion detection between the frames : 
+-  Algorithm used is RLE: https://www.section.io/engineering-education/run-length-encoding-algorithm-in-python/#:~:text=Run%20Length%20Encoding%20is%20a,runs%20followed%20by%20the%20data.
 
 Motion detection:
-To Demo Motion detection: python application.py 
-Output: View it in chrome the URL that is console logged 
+- To Demo Motion detection: python application.py 
+- Output: View it in chrome the URL that is console logged 
 
 Encode: 
-Command: python encode frameNumber 
-Sample Command: python encode 2
-Output: Image would be shown upfront
+- Command: python encode frameNumber 
+- Sample Command: python encode 2
+- Output: Image would be shown upfront
 
 Decode:
-Command: python decode frameNumber 
-Sample Command: python decode 2
-Output: Image would be shown upfront
+- Command: python decode frameNumber 
+- Sample Command: python decode 2
+- Output: Image would be shown upfront
